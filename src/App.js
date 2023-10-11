@@ -295,7 +295,7 @@ function App() {
 
                 {roundData && (
                     <>
-                        <Typography variant="h6" className="card-title">CURRENT FIGHT STATUS</Typography>
+                        <Typography variant="h6" className="card-title">CURRENT STATUS</Typography>
                         <Typography textAlign={'center'}>{roundData.gameStatus ? 'OPEN' : 'CLOSED'}</Typography>
                     </>
                 )}
@@ -317,7 +317,7 @@ function App() {
                         disabled
                     />
                 )}
-                <div>
+                <div> 
                   <Button variant="contained" color="primary" onClick={executeRound} disabled={loading}>
                     DECLARE
                 </Button>
