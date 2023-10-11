@@ -1,7 +1,7 @@
 {
   "name": "my-dapp",
   "version": "0.1.0",
-  "homepage": "https://my-dapp-git-master-laronlineworld.vercel.app/",
+  "homepage": "https://my-dapp-beta.vercel.app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
